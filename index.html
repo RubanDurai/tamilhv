@@ -1,0 +1,245 @@
+<DOCTYPE html>
+
+<head>
+
+          <mata name="viewport" content="width=device-width, initial-scale=1.0>
+
+          <litle>MOVIE VEL</litle>
+
+          
+
+          <link rel="stylesheet" href=" " type="image/x-icon">
+
+            <link rel="stylesheet"
+
+                 href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+
+                <!-- or -->
+
+           <link rel="stylesheet"
+
+                    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+
+    
+
+<style>
+
+*{font-family: poppins; margin:0; padding:0; scroll-behavior:smooth; box-sizeing: border-box; scroll-padding-top: 20px;text-transformer: uppercase; }
+
+:root{--main-color: #ffb43a; --hover-color: #hsl(37,94%,57%); --body-color: #1e1e2a; --container-color: #2d2e37; --text-color: #fcfeff;}
+
+body{background-color: var(--container-color); color: var(--text-color);}
+
+li{ list-style: none;}
+
+a{text-decoration: none}
+
+img{ width: 100%;}
+
+.container{ width: 1068px; margin: auto; width:100%;}
+
+header{position: fixed; top: 0; left: 0; background: var(--body-color); z-index: 100; }
+
+.nav{display: flex; ailgn-items: center; justify-content: center; padding: 20px 0; }
+
+.logo{ align-items: center; font-size: 1.4rem; color: var(--text-color); font-weight: 600; text-transform; uppercase; margin: 8 20; }
+
+.logo span {color: var(--main-color);}
+
+.search-box { max-width: 240px; width: 100%; display: flex; align-items: center; column-gap: 0.7rem; padding: 8px 10px; background: var(--container-color); border-radius: 4rem; margin-right: 1rem; }
+
+.search-box .bx{ font-size: 1.1rem; }
+
+.search-box .bx:hover{ colour: var(--main-color);}
+
+.bx {cursor: pointer;}
+
+.user{display: flex; } 
+
+.user-img{width: 40px; height: 40px; border-radius: 50% ; object-fit: cover; object-position: center;}
+
+section { padding: 3rem 0 2rem;}
+
+.navbar{ justify-content: space-between; position:fixed; top:95% ; transform: translatey(-50%); left :30px; display:flex;}
+
+.nav-link {display:flex; flex-direction:coloum; align-items:center; color: #b7b7b7;}
+
+.nav-link nav-active:hover{ color: var(--text-color); transition : 0.33 all linear; transform: scale (1.1);}
+
+.nav-link .bx{ font-size: 1.6rem;}
+
+.nav-link-title{ font-size: 0.7rem;}
+
+#search-input {width: 100% ; border: none; outline: none; color: var(--text-color); background: transparent;}
+
+#home{ object-fit: cover; position: relative; min-height: 470px; /* display: flex; */ align-items: center; margin-top: 5rem ! important; border-radius: 0.5rem; margin-bottom: 2rem; }
+
+.home-img{ position: absolute; width: 100% ; height: 100%; z-index: -1 ; object-fit: cover; boder-radius: 0.5rem; }
+
+.home-text{ padding-left: 48px;}
+
+.home-title{ font-size: 2rem; font-weight: 60; }
+
+.home-text p{ font-size; 0.938rem; margin: 10px 0 20px; color: var(--main-color);}
+
+.heading { display: flex; ailgn-text: center; justify-content: space-between; padding: 8px 14px; border: 1px solid hsl(200 100% 99% /5%); 
+
+.heading title{ font-size: 1.25rem ; font-weight: 500;}
+
+.movie-box{ position: relative; width: 100%; height: 380px; overflow: hidden;}
+
+.movie-box-img{ width: 100% height: 100%; object-fit: cover;}
+
+.movie-box .box-text{ position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column: justify-content: center-fixed ; padding: 14px; background: var(--text-color);}
+
+</style>
+
+</head>
+
+<body>
+
+       <header> 
+
+          <div class="nav container">
+
+            <a href="index.html" class="logo">
+
+              MOVIE<span>VEL</span></a>
+
+              
+
+            <div class="search-box">
+
+               <input type="search" name="" id="search-input" placeholder="Search Movies">
+
+                  <i class='bx bx-search'></i>
+
+            </div>
+
+               <div class="user">
+
+              <a href="#" class="user-img">
+
+              	<img src="/storage/emulated/0/pixelLab/Logo.jpg" alt="" class="user-img">              </a></div>
+
+            </div>
+
+        </header>
+
+        
+
+        <section class="home container" id="home">
+
+        	<img src="/storage/emulated/0/IDM/Photos/MSD.jpg " alt=" " class="home-img>
+
+        	  <div class="home-text>
+
+        	     <h1 class="home-title">Jumanji<h1>
+
+        	      <p>Sony Pictures Release </p>
+
+                    <i class='bx bx-right-arrow'><i>
+
+                      <span> Watch Trailer</span>
+
+        	  </div>
+
+         </section>
+
+        <div class="navbar">
+
+          
+
+     	   <a href="" class="nav-link" >
+
+     	      <i class='bx bx-home' ></i>
+
+               <span class="nav-link-title">HOME</span>
+
+             </a>
+
+          
+
+     	   <a href="" class="nav-link" >
+
+     	      <i class='bx bx-tv'></i>
+
+               <span class="nav-link-title">TV</span>
+
+             </a>
+
+             
+
+     	   <a href="" class="nav-link" >
+
+     	      <i class='bx bxl-telegram'></i>
+
+               <span class="nav-link-title">TELEGRAM</span>
+
+             </a>
+
+             
+
+     	   <a href="" class="nav-link" >
+
+     	      <i class='bx bx-compass'></i>
+
+               <span class="nav-link-title">EXPLORE</span>
+
+             </a>
+
+    
+
+     	   <a href="" class="nav-link" >
+
+     	      <i class='bx bxs-hot'></i>
+
+               <span class="nav-link-title">TRENDING</span>
+
+             </a>
+
+          </div>
+
+          
+
+          <section class="popular container" id="popular">
+
+            <div class="heading">
+
+            	<h2 class='heading title'>popular</h2>
+
+            </div>
+
+            </section>
+
+              <div class="popular-content">
+
+            	<div class="movie-box">
+
+              	<img class="movie-box-img" src="/storage/emulated/0/IDM/Photos/Vikram.jpg" alt=""></img>
+
+              	  <div class="box-text">
+
+              	    <h2 class="movie-title">Hi</h2>
+
+                         <span class="movie-type">Ruban</span>
+
+                           <a href="" class="watch-btn play-btn></a>
+
+                           	<i class="bx bx-right-arrow></i>
+
+                                 <span>Tamil Hd Movies</span>
+
+                </div>
+
+                </div>
+
+                </div>
+
+               
+
+             
+
+</body>
+
+</html>
